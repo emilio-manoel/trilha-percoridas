@@ -4,65 +4,101 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>trilha percoridas</title>
-    <link rel="shortcut icon" href="src/assets/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="src/assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles/reset.css" />
     <link rel="stylesheet" href="src/styles/principal.css" />
   </head>
   <body>
     <header>
-        <div class="container-imagens-principais">
-          <img class="imagens-principais" src="src/assets/logo-html5.png" alt="html5">
-          <img class="imagens-principais" src="src/assets/logo-css.png" alt="css">
-          <img class="imagens-principais" src="src/assets/logo-js.png" alt="js">
-        </div>
-        <h1>trilha percorrida</h1>
-        <p id="texto-principal">Olá, sou Emilio Manoel sou um programador iniciante, atualmente com um aprendizado autoditada, para ter uma comprovação do meu aprendizado ultilizo a plataforma DIO, já que possui certificação perante desafios de projeto como esse no qual me da um modelo pronto para somente adicionar o css, mais decidir fazer do zero apenas mantendo a base (cor e alguns imagens), busco me torna na minha visão um programador completo, o fullstack e aprender sobre bibiotecas e frameworks também </p>
-        <a href="https://web.dio.me/home" id="acessar-dio" target="_blank" rel="nofollow">acessar dio</a>
-        
+      <div class="container-imagens-principais">
+        <img
+          class="imagens-principais"
+          src="src/assets/logo-html5.png"
+          alt="html5"
+        />
+        <img
+          class="imagens-principais"
+          src="src/assets/logo-css.png"
+          alt="css"
+        />
+        <img class="imagens-principais" src="src/assets/logo-js.png" alt="js" />
+      </div>
+      <h1>trilha percorrida</h1>
+      <p id="texto-principal">
+        Olá, sou Emilio Manoel sou um programador iniciante, atualmente com um
+        aprendizado autoditada, para ter uma comprovação do meu aprendizado
+        ultilizo a plataforma DIO, já que possui certificação perante desafios
+        de projeto como esse no qual me da um modelo pronto para somente
+        adicionar o css, mais decidir fazer do zero apenas mantendo a base (cor
+        e alguns imagens), busco me torna na minha visão um programador
+        completo, o fullstack e aprender sobre bibiotecas e frameworks também
+      </p>
+      <a
+        href="https://web.dio.me/home"
+        id="acessar-dio"
+        target="_blank"
+        rel="nofollow"
+        >acessar dio</a
+      >
     </header>
     <main>
       <div id="o-que-ja-aprende">
-        <h2 id="o-que-ja-aprende-titulo"></h2>
+        <h2 id="o-que-ja-aprende-titulo">O que já aprendi</h2>
         <p id="texto-dos-tipos-de-linguagem"></p>
-        <spam>
-          <h3 id="html5-titulo"></h3>
-          <ul >
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </spam>
-        <spam>
-          <h3 id="css3-titulo"></h3>
+        <div class="card-trilha">
+          <h3 id="html5-titulo">HTML5</h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Introdução a Web e HTML5</li>
+            <li>Tags Semânticas e Estrutura</li>
+            <li>Trabalhando com Imagens e Links</li>
+            <li>Listas Ordenadas e Não Ordenadas</li>
+            <li>Formulários e Inputs</li>
           </ul>
-        </spam>
-        <spam>
-          <h3 id="js-titulo"></h3>
+        </div>
+        <div class="card-trilha">
+          <h3 id="css3-titulo">CSS3</h3>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Introdução ao CSS e Seletores</li>
+            <li>Box Model e Espaçamento</li>
+            <li>Posicionamento e Layout (Flexbox)</li>
+            <li>Estilização de Textos e Cores</li>
+            <li>Design Responsivo e Media Queries</li>
           </ul>
-        </spam>
+        </div>
+        <div class="card-trilha">
+          <h3 id="js-titulo">JavaScript</h3>
+          <ul>
+            <li>Sintaxe Básica e Variáveis</li>
+            <li>Tipos de Dados e Operadores</li>
+            <li>Estruturas Condicionais e Repetições</li>
+            <li>Funções e Escopo</li>
+            <li>Manipulação do DOM e Eventos</li>
+          </ul>
+        </div>
       </div>
-
-      <div id="o-que-busco-aprender">
-        <h2 id="o-que-busco-aprender-titulo"></h2>
-        <img src="src/assets/" alt="">
-        <p></p>
-      </div>
-
     </main>
-    <footer>
-      <p id="texto-footer"></p>
-      <a href="" id="linkedin" target="_blank"></a>
-      <a href="" id="github" target="_blank"></a>
-      <a href="" id="instagram" target="_blank"></a>
+    <aside id="o-que-busco-aprender">
+        <h2 id="o-que-busco-aprender-titulo"></h2>
+        <img src="src/assets/professional-challenges.png" alt="dio-imagem" />
+        <p></p>
+      </aside>
 
+    <footer>
+      <a href="" id="linkedin" target="_blank">Meu Linkedin</a>
+      <a href="" id="github" target="_blank">Meu Github</a>
+      <a href="" id="instagram" target="_blank">Meu Instagram</a>
+      <a href="" id="dio" target="_blank">Plataforma DIO</a>
+      <a href="" id="portfolio" target="_blank">Portfolio de base</a>
     </footer>
 
     <script src="src/scripts/scripts.js" defer></script>
