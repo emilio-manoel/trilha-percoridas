@@ -193,10 +193,22 @@ main {
 
 aside{
   background-color: #23134b;
+  padding: 4rem 2rem;
+  max-width: 1500px;
+  height: 600px;
 }
+
 [alt="dio-imagem"]{
   max-width: 659px;
   max-height: 462px;
+  
+}
+
+@media (max-width: 768px){
+  [alt="dio-imagem"]{
+    max-width: 60%;
+    max-height: 60%;
+  }
 }
 
 
