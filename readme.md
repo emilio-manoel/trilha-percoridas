@@ -1,55 +1,35 @@
-# 🚀 Trilha Percorrida
+# React + TypeScript + Vite
 
-## 📌 Sobre o projeto
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-O **Trilha Percorrida** é um site simples e objetivo criado para registrar minha jornada de aprendizado em **Desenvolvimento Web**. Ele funciona como um mini‑portfólio, mostrando o que já estudei, as tecnologias que conheço e os próximos passos que pretendo seguir na programação.
+Currently, two official plugins are available:
 
-O projeto foi desenvolvido com foco em **organização**, **clareza** e **prática dos fundamentos** de HTML, CSS e JavaScript.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 🧠 Tecnologias usadas no site 
-### 🌐 HTML
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-O HTML é responsável pela **estrutura do site**. Neste projeto, ele foi usado para:
+Note: This will impact Vite dev & build performances.
+You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
 
-* Organizar o conteúdo da página (títulos, parágrafos e seções)
-* Criar listas com os conteúdos estudados
-* Inserir links para redes sociais e outros sites
-* Deixar o conteúdo bem estruturado e fácil de entender
+## Expanding the Oxlint configuration
 
-Em resumo: o HTML funciona como o **esqueleto** do site.
+If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
 
-### 🎨 CSS
+```json
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "typescript", "oxc"],
+  "options": {
+    "typeAware": true
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }]
+  }
+}
+```
 
-O CSS é responsável pela **aparência visual** do site. Aqui ele foi usado para:
-
-* Definir cores, fontes e tamanhos de texto
-* Organizar os elementos na tela
-* Criar espaçamentos para melhorar a leitura
-* Deixar o site mais agradável visualmente
-
-Em resumo: o CSS é o que deixa o site **bonito e organizado**.
-
----
-
-## 🎯 Objetivos futuros
-
-Este projeto representa apenas o início da minha jornada na programação. Como próximos passos, pretendo:
-
-* Aprender uma linguagem **backend**, como Java, para entender como funcionam servidores, APIs e bancos de dados
-* Aprofundar meus conhecimentos em **JavaScript**, criando páginas mais interativas e dinâmicas
-* Estudar **frameworks e bibliotecas**, para desenvolver aplicações mais completas e profissionais
-* Utilizar **Inteligência Artificial** como ferramenta de apoio nos estudos e na produtividade
-* Desenvolver projetos mais próximos da realidade do **mercado de trabalho**, evoluindo como desenvolvedor
-
----
-
-## 🔗 Links importantes
-
-* 🌍 **Site:** [https://emilio-manoel.github.io/trilha-percoridas/](https://emilio-manoel.github.io/trilha-percoridas/)
-* 💻 **GitHub:** [https://github.com/emilio-manoel](https://github.com/emilio-manoel)
-* 💼 **LinkedIn:** ([https://www.linkedin.com/in/emilio-manoel/](https://www.linkedin.com/in/emilio-manoel/))
-* 📚 **DIO:** [https://www.dio.me](https://www.dio.me)
-
----
+See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
