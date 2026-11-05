@@ -17,10 +17,7 @@ header {
   max-width: 185px;
   max-height: 185px;
 }
-[alt="css"] {
-  max-width: 225px;
-  max-height: 185px;
-}
+
 
 .container-imagens-principais {
   display: flex;

@@ -1,12 +1,17 @@
 import "./Header.css";
+import react from "./../../assets/logo-react.png"
+import nodejs from "./../../assets/logo-node.js.png"
+import ts from "./../../assets/logo-typescript.png"
+import mongoDB from "./../../assets/logo-mongoDB.png"
 
 export default function Header() {
   return (
     <header>
       <div className="container-imagens-principais">
-        <img className="imagens-principais" src="" alt="react" />
-        <img className="imagens-principais" src="" alt="typescript" />
-        <img className="imagens-principais" src="" alt="mongo db" />
+        <img className="imagens-principais" src={react} alt="react" />
+        <img className="imagens-principais" src={nodejs} alt="node.js" />
+        <img className="imagens-principais" src={ts} alt="typescript" />
+        <img className="imagens-principais" src={mongoDB} alt="mongo db" />
       </div>
       <h1>trilha percorrida</h1>
       <p id="texto-principal">

@@ -1,9 +1,10 @@
 import "./aside.css";
+import banner from "./../../assets/aside-banner.png"
 
 export default function Aside() {
   return (
     <aside>
-      <img src="src/assets/professional-challenges.png" alt="dio-imagem" />
+      <img src={banner} alt="banner-aside" />
       <div className="card-trilha">
         <h2 id="o-que-busco-aprender-titulo">O que busco aprender no futuro</h2>
         <ul>
