@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root {
+  --color-primary: #33a8db;
+  --color-secondary: #1c1c1c;
+  --color-background: #121212;
+  --color-text: #e0e0e0;
+  --color-card-bg: #1e1e1e;
+  --font-family-main: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family-main);
+  line-height: 1.6;
+}
+
