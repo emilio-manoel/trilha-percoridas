@@ -1,22 +1,11 @@
-import './Header.css'
-
-
+import "./Header.css";
 
 export default function Header() {
-
-    return(
+  return (
     <header>
-        <div className="container-imagens-principais">
-        <img
-          className="imagens-principais"
-          src=""
-          alt="react"
-        />
-        <img
-          className="imagens-principais"
-          src=""
-          alt="typescript"
-        />
+      <div className="container-imagens-principais">
+        <img className="imagens-principais" src="" alt="react" />
+        <img className="imagens-principais" src="" alt="typescript" />
         <img className="imagens-principais" src="" alt="mongo db" />
       </div>
       <h1>trilha percorrida</h1>
@@ -34,7 +23,9 @@ export default function Header() {
         id="acessar-dio"
         target="_blank"
         rel="nofollow"
-        >acessar dio</a>
+      >
+        acessar dio
+      </a>
     </header>
-    )
+  );
 }
