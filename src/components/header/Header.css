@@ -1,0 +1,73 @@
+header {
+  background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(49, 168, 221, 0.2),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("/src/assets/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 40px;
+  border-bottom: 1px solid #33a8db80;
+}
+
+.imagens-principais {
+  max-width: 185px;
+  max-height: 185px;
+}
+[alt="css"] {
+  max-width: 225px;
+  max-height: 185px;
+}
+
+.container-imagens-principais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+h1,
+#texto-principal,
+#acessar-dio {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #33a8db;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+#texto-principal {
+  color: #fff;
+  margin: 0 auto;
+  width: 625px;
+  font-size: 18px;
+}
+
+#acessar-dio {
+  color: #31a8dd;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border-image: linear-gradient(#3ba1cd, #1572b7);
+  border-image-slice: 10;
+  border-radius: 30px;
+  text-decoration: none;
+  display: block;
+  margin: 12px auto;
+}
+
+#acessar-dio:hover {
+  width: 220px;
+  background-color: #33a8db;
+  color: #fff;
+}
