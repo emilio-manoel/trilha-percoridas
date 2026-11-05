@@ -71,3 +71,22 @@ h1 {
   background-color: #33a8db;
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  .container-imagens-principais {
+    gap: 1rem;
+  }
+
+  .imagens-principais {
+    width: 70px;
+  }
+
+  #texto-principal {
+    width: 90%;
+    font-size: 1rem;
+  }
+}
