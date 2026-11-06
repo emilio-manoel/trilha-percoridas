@@ -8,7 +8,6 @@ header {
     url("/src/assets/banner.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
   padding-top: 40px;
   border-bottom: 1px solid #33a8db80;
 }
@@ -28,7 +27,7 @@ header {
 
 h1,
 #texto-principal,
-#acessar-dio {
+.header_links {
   text-align: center;
 }
 
@@ -47,7 +46,7 @@ h1 {
   font-size: 18px;
 }
 
-#acessar-dio {
+.header_links {
   color: #31a8dd;
   font-size: 1rem;
   font-weight: bold;
@@ -60,13 +59,14 @@ h1 {
   border-radius: 30px;
   text-decoration: none;
   display: block;
-  margin: 12px auto;
+  flex-wrap: wrap;
+  margin: 1.25rem auto;
 }
 
-#acessar-dio:hover {
-  width: 220px;
+.header_links:hover {
   background-color: #33a8db;
   color: #fff;
+  width: 40rem;
 }
 
 @media (max-width: 768px) {
