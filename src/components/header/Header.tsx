@@ -24,7 +24,7 @@ export default function Header() {
         Este site, inclusive, é uma evolução do projeto "Trilha Percorrida" da DIO. A primeira versão foi construída inteiramente com HTML, CSS e JavaScript vanilla. Agora, ele foi totalmente reescrito em React com Vite. Essa transição reflete a minha evolução profissional, permitindo que eu e os visitantes avaliemos o meu nível de adaptação e os novos conhecimentos adquiridos ao comparar as duas versões.
       </p>
       <a
-        href="./../../../antigo projeto/index.html"
+        href="https://github.com/emilio-manoel/trilha-percoridas/tree/v1"
         className="header_links"
         target="_blank"
         rel="nofollow"
