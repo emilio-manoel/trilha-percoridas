@@ -1,6 +1,6 @@
 main {
-  padding: 4rem 2rem;
-  max-width: 1200px;
+  padding: 2rem 1rem;
+ 
   margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .container-principal > h2,
@@ -43,7 +43,7 @@ main {
 
 .card-trilha {
   background-color: var(--color-card-bg);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 12px;
   border: 1px solid #333;
   width: 100%;
@@ -61,7 +61,6 @@ main {
 
 .card-trilha h3,
 #o-que-busco-aprender-titulo {
-  color: var(--color-primary);
   font-size: 1.5rem;
   margin-bottom: 1rem;
   border-bottom: 1px solid #444;
@@ -81,8 +80,21 @@ main {
 
 .card-trilha li::before {
   content: ">";
-  color: var(--color-primary);
   position: absolute;
   left: 0;
   font-weight: bold;
+}
+
+#nodejs h3,
+#mongodb h3, 
+#nodejs li:before,
+#mongodb li:before {
+  color: var(--color-card-secondary);
+}
+
+#react h3,
+#typescript h3, 
+#react li:before,
+#typescript li:before {
+  color: var(--color-card-primary);
 }
