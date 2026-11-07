@@ -12,8 +12,12 @@ aside {
   width: 659px;
   height: 462px;
   margin-right: 18px;
-  border: 10px rgb(33, 2, 64) solid;
+  border: 3px rgb(33, 2, 64) solid;
   border-radius: 30px;
+}
+
+#o-que-busco-aprender-titulo+ul, #o-que-busco-aprender-titulo {
+  color:rgb(124, 113, 221)
 }
 
 @media (max-width: 768px) {
@@ -27,6 +31,3 @@ aside {
   }
 }
 
-aside .card-trilha{
-  max-height: 389px;
-}
